@@ -12,7 +12,7 @@ body {
 	margin: 0;
 }
 
-span {
+span, h3 {
 	font-weight: 700;
 	color: #F22652;
 }
@@ -57,11 +57,11 @@ h3 {
 
 /******* Media Queries *****/
 
-@media(min-width: 768px) {
+/*@media(min-width: 768px) {
 
 	section {
 		display: flex;
 	}
 
 }
-
+*/
