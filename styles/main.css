@@ -18,17 +18,18 @@ span {
 }
 
 section {
-	width: 65%;
+	width: 75%;
 	margin: 0 auto;
 	padding: 1em 0;
 
 }
 
+
 /******* Content styles *****/
 
 #main-content h1 {
 	font-family: 'Yellowtail', cursive;
-	font-size: 54px;
+	font-size: 48px;
 	margin: 0;
 }
 
@@ -45,7 +46,7 @@ section {
 h3 {
 	display: inline;
 	font-size: 28px;
-	margin-right: 10px;
+	margin: 15px 0;
 }
 
 #image, h1, #contact {
@@ -58,6 +59,9 @@ h3 {
 
 @media(min-width: 768px) {
 
+	section {
+		display: flex;
+	}
 
 }
 
